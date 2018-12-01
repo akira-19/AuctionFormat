@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D35F4D91E8553352F1A9B75 /* Pods_auctionFormat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1202CE0DF2D4303F5B8F96 /* Pods_auctionFormat.framework */; };
+		5A21D20980B9E2716424A2F4 /* Pods_auctionFormatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9DE9E0B5753924B6C74569 /* Pods_auctionFormatUITests.framework */; };
+		A3886ECA51859BD769E3FF5E /* Pods_auctionFormatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898BB1B7B320EFB8A42391AA /* Pods_auctionFormatTests.framework */; };
+		E914AD3F2066ECA700DC29F0 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914AD3E2066ECA700DC29F0 /* CheckBox.swift */; };
+		E95D335E206C455900BCF621 /* TemplateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95D335D206C455900BCF621 /* TemplateTableViewController.swift */; };
+		E95D3360206C65CB00BCF621 /* AddTemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95D335F206C65CB00BCF621 /* AddTemplateViewController.swift */; };
+		E9782E2D205A3FDD009FCCC6 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9782E2C205A3FDD009FCCC6 /* PickerViewController.swift */; };
 		E97E12E22046647E00AE1BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E12E12046647E00AE1BD4 /* AppDelegate.swift */; };
 		E97E12E42046647E00AE1BD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E12E32046647E00AE1BD4 /* ViewController.swift */; };
 		E97E12E72046647E00AE1BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97E12E52046647E00AE1BD4 /* Main.storyboard */; };
@@ -14,6 +21,10 @@
 		E97E12EC2046647E00AE1BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97E12EA2046647E00AE1BD4 /* LaunchScreen.storyboard */; };
 		E97E12F72046647E00AE1BD4 /* auctionFormatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E12F62046647E00AE1BD4 /* auctionFormatTests.swift */; };
 		E97E13022046647E00AE1BD4 /* auctionFormatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E13012046647E00AE1BD4 /* auctionFormatUITests.swift */; };
+		E97E13102046702000AE1BD4 /* NewTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E130F2046702000AE1BD4 /* NewTemplate.swift */; };
+		E97E1312204670F600AE1BD4 /* keptTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E1311204670F600AE1BD4 /* keptTemplate.swift */; };
+		E9B948DA2079832F00FDE16A /* EditTemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B948D92079832F00FDE16A /* EditTemplateViewController.swift */; };
+		E9B948DC207D911A00FDE16A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9B948DB207D911A00FDE16A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EA81212F46D89E021475794 /* Pods-auctionFormatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auctionFormatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-auctionFormatUITests/Pods-auctionFormatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D1202CE0DF2D4303F5B8F96 /* Pods_auctionFormat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_auctionFormat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F8C0CD709E537EFF41C735 /* Pods-auctionFormatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auctionFormatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-auctionFormatTests/Pods-auctionFormatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55ECDB0AFAB35D47EBAA87D9 /* Pods-auctionFormat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auctionFormat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-auctionFormat/Pods-auctionFormat.debug.xcconfig"; sourceTree = "<group>"; };
+		898BB1B7B320EFB8A42391AA /* Pods_auctionFormatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_auctionFormatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9DE9E0B5753924B6C74569 /* Pods_auctionFormatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_auctionFormatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F60968C7DB23979649DF63 /* Pods-auctionFormat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auctionFormat.release.xcconfig"; path = "Pods/Target Support Files/Pods-auctionFormat/Pods-auctionFormat.release.xcconfig"; sourceTree = "<group>"; };
+		BBE330051414B772BA0567D2 /* Pods-auctionFormatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auctionFormatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-auctionFormatUITests/Pods-auctionFormatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E914AD3E2066ECA700DC29F0 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		E95D335D206C455900BCF621 /* TemplateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateTableViewController.swift; sourceTree = "<group>"; };
+		E95D335F206C65CB00BCF621 /* AddTemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTemplateViewController.swift; sourceTree = "<group>"; };
+		E9782E2C205A3FDD009FCCC6 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		E97E12DE2046647E00AE1BD4 /* auctionFormat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = auctionFormat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97E12E12046647E00AE1BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E97E12E32046647E00AE1BD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +70,11 @@
 		E97E12FD2046647E00AE1BD4 /* auctionFormatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = auctionFormatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97E13012046647E00AE1BD4 /* auctionFormatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auctionFormatUITests.swift; sourceTree = "<group>"; };
 		E97E13032046647E00AE1BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97E130F2046702000AE1BD4 /* NewTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTemplate.swift; sourceTree = "<group>"; };
+		E97E1311204670F600AE1BD4 /* keptTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keptTemplate.swift; sourceTree = "<group>"; };
+		E9B948D92079832F00FDE16A /* EditTemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTemplateViewController.swift; sourceTree = "<group>"; };
+		E9B948DB207D911A00FDE16A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F69738F73F695211EC4EED83 /* Pods-auctionFormatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auctionFormatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-auctionFormatTests/Pods-auctionFormatTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D35F4D91E8553352F1A9B75 /* Pods_auctionFormat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3886ECA51859BD769E3FF5E /* Pods_auctionFormatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A21D20980B9E2716424A2F4 /* Pods_auctionFormatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9DE088BB6D1CBA15499C8F4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D1202CE0DF2D4303F5B8F96 /* Pods_auctionFormat.framework */,
+				898BB1B7B320EFB8A42391AA /* Pods_auctionFormatTests.framework */,
+				AD9DE9E0B5753924B6C74569 /* Pods_auctionFormatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A87ED2B07D56B1AB46843D35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55ECDB0AFAB35D47EBAA87D9 /* Pods-auctionFormat.debug.xcconfig */,
+				B4F60968C7DB23979649DF63 /* Pods-auctionFormat.release.xcconfig */,
+				44F8C0CD709E537EFF41C735 /* Pods-auctionFormatTests.debug.xcconfig */,
+				F69738F73F695211EC4EED83 /* Pods-auctionFormatTests.release.xcconfig */,
+				1EA81212F46D89E021475794 /* Pods-auctionFormatUITests.debug.xcconfig */,
+				BBE330051414B772BA0567D2 /* Pods-auctionFormatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E97E12D52046647E00AE1BD4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +135,8 @@
 				E97E12F52046647E00AE1BD4 /* auctionFormatTests */,
 				E97E13002046647E00AE1BD4 /* auctionFormatUITests */,
 				E97E12DF2046647E00AE1BD4 /* Products */,
+				A87ED2B07D56B1AB46843D35 /* Pods */,
+				9DE088BB6D1CBA15499C8F4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +153,18 @@
 		E97E12E02046647E00AE1BD4 /* auctionFormat */ = {
 			isa = PBXGroup;
 			children = (
+				E97E130F2046702000AE1BD4 /* NewTemplate.swift */,
 				E97E12E12046647E00AE1BD4 /* AppDelegate.swift */,
+				E9B948DB207D911A00FDE16A /* GoogleService-Info.plist */,
 				E97E12E32046647E00AE1BD4 /* ViewController.swift */,
+				E97E1311204670F600AE1BD4 /* keptTemplate.swift */,
+				E9782E2C205A3FDD009FCCC6 /* PickerViewController.swift */,
 				E97E12E52046647E00AE1BD4 /* Main.storyboard */,
+				E9B948D92079832F00FDE16A /* EditTemplateViewController.swift */,
+				E95D335F206C65CB00BCF621 /* AddTemplateViewController.swift */,
+				E95D335D206C455900BCF621 /* TemplateTableViewController.swift */,
 				E97E12E82046647E00AE1BD4 /* Assets.xcassets */,
+				E914AD3E2066ECA700DC29F0 /* CheckBox.swift */,
 				E97E12EA2046647E00AE1BD4 /* LaunchScreen.storyboard */,
 				E97E12ED2046647E00AE1BD4 /* Info.plist */,
 			);
@@ -132,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E97E13062046647E00AE1BD4 /* Build configuration list for PBXNativeTarget "auctionFormat" */;
 			buildPhases = (
+				2D474EF32F0BD63E01E3FBC0 /* [CP] Check Pods Manifest.lock */,
 				E97E12DA2046647E00AE1BD4 /* Sources */,
 				E97E12DB2046647E00AE1BD4 /* Frameworks */,
 				E97E12DC2046647E00AE1BD4 /* Resources */,
+				E8ED62AC21509047E1393007 /* [CP] Embed Pods Frameworks */,
+				1296A41748604ECAAD3A5256 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E97E13092046647E00AE1BD4 /* Build configuration list for PBXNativeTarget "auctionFormatTests" */;
 			buildPhases = (
+				5EBD694C9AE3EF10904EE3F7 /* [CP] Check Pods Manifest.lock */,
 				E97E12EE2046647E00AE1BD4 /* Sources */,
 				E97E12EF2046647E00AE1BD4 /* Frameworks */,
 				E97E12F02046647E00AE1BD4 /* Resources */,
+				6D9FF5CCF434893E54C3B003 /* [CP] Embed Pods Frameworks */,
+				1A5ADC9C93FC338CE8CA5F8C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E97E130C2046647E00AE1BD4 /* Build configuration list for PBXNativeTarget "auctionFormatUITests" */;
 			buildPhases = (
+				D7675B77CCBA2848496A8D6B /* [CP] Check Pods Manifest.lock */,
 				E97E12F92046647E00AE1BD4 /* Sources */,
 				E97E12FA2046647E00AE1BD4 /* Frameworks */,
 				E97E12FB2046647E00AE1BD4 /* Resources */,
+				1DF0691D019777747A9EB092 /* [CP] Embed Pods Frameworks */,
+				3F0A3C909F3F260B448E0EE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E97E12EC2046647E00AE1BD4 /* LaunchScreen.storyboard in Resources */,
+				E9B948DC207D911A00FDE16A /* GoogleService-Info.plist in Resources */,
 				E97E12E92046647E00AE1BD4 /* Assets.xcassets in Resources */,
 				E97E12E72046647E00AE1BD4 /* Main.storyboard in Resources */,
 			);
@@ -254,12 +328,173 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1296A41748604ECAAD3A5256 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auctionFormat/Pods-auctionFormat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A5ADC9C93FC338CE8CA5F8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auctionFormatTests/Pods-auctionFormatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DF0691D019777747A9EB092 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auctionFormatUITests/Pods-auctionFormatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D474EF32F0BD63E01E3FBC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-auctionFormat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F0A3C909F3F260B448E0EE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auctionFormatUITests/Pods-auctionFormatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EBD694C9AE3EF10904EE3F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-auctionFormatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D9FF5CCF434893E54C3B003 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auctionFormatTests/Pods-auctionFormatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7675B77CCBA2848496A8D6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-auctionFormatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8ED62AC21509047E1393007 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-auctionFormat/Pods-auctionFormat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-auctionFormat/Pods-auctionFormat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E97E12DA2046647E00AE1BD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9782E2D205A3FDD009FCCC6 /* PickerViewController.swift in Sources */,
 				E97E12E42046647E00AE1BD4 /* ViewController.swift in Sources */,
+				E95D335E206C455900BCF621 /* TemplateTableViewController.swift in Sources */,
+				E914AD3F2066ECA700DC29F0 /* CheckBox.swift in Sources */,
+				E97E1312204670F600AE1BD4 /* keptTemplate.swift in Sources */,
+				E9B948DA2079832F00FDE16A /* EditTemplateViewController.swift in Sources */,
+				E97E13102046702000AE1BD4 /* NewTemplate.swift in Sources */,
+				E95D3360206C65CB00BCF621 /* AddTemplateViewController.swift in Sources */,
 				E97E12E22046647E00AE1BD4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +659,7 @@
 		};
 		E97E13072046647E00AE1BD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55ECDB0AFAB35D47EBAA87D9 /* Pods-auctionFormat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +674,7 @@
 		};
 		E97E13082046647E00AE1BD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F60968C7DB23979649DF63 /* Pods-auctionFormat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +689,7 @@
 		};
 		E97E130A2046647E00AE1BD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44F8C0CD709E537EFF41C735 /* Pods-auctionFormatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +706,7 @@
 		};
 		E97E130B2046647E00AE1BD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69738F73F695211EC4EED83 /* Pods-auctionFormatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +723,7 @@
 		};
 		E97E130D2046647E00AE1BD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA81212F46D89E021475794 /* Pods-auctionFormatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +739,7 @@
 		};
 		E97E130E2046647E00AE1BD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE330051414B772BA0567D2 /* Pods-auctionFormatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
